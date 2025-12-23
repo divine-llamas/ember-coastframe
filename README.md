@@ -16,7 +16,7 @@ This project integrates tooling from the Base and Coinbase open-source ecosystem
 
 ## Repository layout
 
-- app.ember-coastframe.ts  
+- app/ember-coastframe.ts  
   Browser script for wallet connection, chain validation, and RPC reads.
 
 - contracts/  
