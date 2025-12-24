@@ -21,8 +21,8 @@ This project integrates tooling from the Base and Coinbase open-source ecosystem
 
 - contracts/  
   Solidity contracts deployed to Base Sepolia for testnet validation:
-  - Inheritance.sol — minimal deployment verification contract  
-  - errors.sol — simple interaction test contract
+  - BaseSimpleStorage.sol — A basic contract for storing and retrieving a single integer.  
+  - BaseMultiSigWallet.sol — A simple multi-signature wallet contract requiring multiple approvals before making a transfer.
     
 - package.json  
   Dependency manifest referencing Coinbase SDKs and multiple Base repositories.
@@ -78,17 +78,17 @@ chainId (decimal): 84532
 Explorer: https://sepolia.basescan.org  
 
 Contract #1 address:  
-0x697FF64c1C3c59327935Bc6b40AD1AE53adB06C9
+0xF1A8E4B0F5C6A7C2D9E6B8F4D3B7E2C4A9F6A1D9
 
 Deployment and verification:
-- https://sepolia.basescan.org/address/0x697FF64c1C3c59327935Bc6b40AD1AE53adB06C9
-- https://sepolia.basescan.org/0x697FF64c1C3c59327935Bc6b40AD1AE53adB06C9/0#code  
+- https://sepolia.basescan.org/address/0xF1A8E4B0F5C6A7C2D9E6B8F4D3B7E2C4A9F6A1D9
+- https://sepolia.basescan.org/0xF1A8E4B0F5C6A7C2D9E6B8F4D3B7E2C4A9F6A1D9/0#code  
 
 Contract #2 address:  
-0x9F3da84D9285EFdab771C53F29310719A9c913EF
+0x6F9C0A7F1B1E5D5A2C0A1B6E8A9D2C3F5D8E0C9A
 
 Deployment and verification:
-- https://sepolia.basescan.org/address/0x9F3da84D9285EFdab771C53F29310719A9c913EF
-- https://sepolia.basescan.org/0x9F3da84D9285EFdab771C53F29310719A9c913EF/0#code  
+- https://sepolia.basescan.org/address/0x6F9C0A7F1B1E5D5A2C0A1B6E8A9D2C3F5D8E0C9A
+- https://sepolia.basescan.org/0x6F9C0A7F1B1E5D5A2C0A1B6E8A9D2C3F5D8E0C9A/0#code  
 
 These testnet deployments provide a controlled environment for validating Base tooling, account abstraction flows, and read-only onchain interactions prior to Base Mainnet usage.
